@@ -1,0 +1,115 @@
+/* =========================
+   TAILWIND BASE
+========================= */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   ROOT STYLING
+========================= */
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #0A0A0B; /* Deep charcoal */
+  color: white;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* =========================
+   GLASSMORPHISM UTILITY
+========================= */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+
+/* =========================
+   CYBER GLOW EFFECTS
+========================= */
+.glow-red {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
+}
+
+.glow-yellow {
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.4);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+}
+
+
+/* =========================
+   SCROLLBAR (DARK MODE)
+========================= */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* =========================
+   TABLE STYLING
+========================= */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+
+/* =========================
+   BUTTON SMOOTHNESS
+========================= */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+
+/* =========================
+   RESPONSIVE FIXES
+========================= */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
