@@ -307,10 +307,7 @@ Planned enhancements include:
 ---
 
 # 👨‍💻 Author
-
-Ayush Pati Tripathi
-Computer Science Student
-Open Source & Security Enthusiast
+Suman Kumar Mishra
 
 ---
 
